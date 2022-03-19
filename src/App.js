@@ -1,23 +1,23 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Reloj from './Componentes/Reloj'
+import Navegacion from './Componentes/Navegacion'
+import Footer from './Componentes/Footer';
+import Producto from './Componentes/Producto';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navegacion />
+
+      <Producto titulo="Teléfonos Celulares" datos="Prueba" />
+      
+      <br></br>
+      <hr></hr>
+      <br></br>
+      <Reloj />
+      <Footer />
     </div>
   );
 }
