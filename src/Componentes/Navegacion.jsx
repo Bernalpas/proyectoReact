@@ -7,7 +7,7 @@ class Navegacion extends React.Component {
     return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid">
-        <a className="navbar-brand" href="https://www.capacitarte.org/" target="_blank">
+        <a className="navbar-brand" href="https://www.capacitarte.org/" target="_blank" rel="noreferrer">
             Navbar
         </a>
         <button
